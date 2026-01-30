@@ -1,0 +1,6 @@
+# Kbuild - Surface Pro 5 Kamera Fix
+# Kombiniert alle INT3472 Komponenten in ein Modul
+
+obj-m := intel_skl_int3472.o
+
+intel_skl_int3472-y := discrete.o common.o clk_and_regulator.o led.o discrete_quirks.o
