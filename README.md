@@ -1,5 +1,7 @@
 # Surface Pro 5 Kamera Fix für Linux
 
+> **Neuerer Fix verfügbar:** [surface-pro5-kamera-v4l2](https://github.com/Eberhar3/surface-pro5-kamera-v4l2)
+
 ## Das Problem
 
 Die Kameras vom Surface Pro 5 gehen unter Linux nicht, weil Microsoft im BIOS (DSDT) Mist gebaut hat.
